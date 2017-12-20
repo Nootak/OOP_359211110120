@@ -26,6 +26,10 @@ public class TestMethods {
             System.out.println("Hello Main");
             A();
             B(5,10);
+            //  manage return value
+            int num = C(5,10);
+            System.out.println(num);
+            System.out.println(C(5,10));
 
     }//main
 }//class
