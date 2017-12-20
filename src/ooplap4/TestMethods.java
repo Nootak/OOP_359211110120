@@ -5,14 +5,27 @@ public class TestMethods {
     public static int number=10;
 
 //Methods
-// type 2
+//type 1
+
+    public static void A() {
+        System.out.println("Hello A");
+    }//A
+
+    // type 2
         public static void B (int x,int y) {
-            System.out.println("Hello B"+x);
-        }//A
+            System.out.println("Hello B"+(x+y));
+    }//B
+
+    // type 3
+    public static int C(int x,int y) {
+        System.out.println("Hello C");
+        return x+y;
+
+    }//C
         public static void main (String[]args) {
             System.out.println("Hello Main");
             A();
-            B();
+            B(5,10);
 
     }//main
 }//class
