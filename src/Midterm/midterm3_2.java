@@ -1,4 +1,5 @@
 package Midterm;
+
     import java.util.Scanner;
     public class midterm3_2 {
         static Scanner scan = new Scanner(System.in);
